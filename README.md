@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+🧠 Code Execution Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive Code Execution Visualizer built with React.js that helps users understand how code runs internally — including call stack behavior, memory allocation, recursion trees, and algorithm complexity.
 
-## Available Scripts
+✨ Features
 
-In the project directory, you can run:
+📜 Live Code Editor
 
-### `npm start`
+▶️ Step-by-step code execution
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📦 Call Stack Visualization
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🧠 Memory Heap Simulation
 
-### `npm test`
+🌳 Recursion Tree Visualization
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📊 Time & Space Complexity Analyzer
 
-### `npm run build`
+🎬 Execution Controls (Play, Pause, Step Forward)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🎨 Clean and Interactive UI
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🏗️ Project Structure
+src/
+│
+├── components/
+│   ├── Controls/
+│   ├── Editor/
+│   ├── Layout/
+│   ├── Visualizers/
+│
+├── engine/
+│   ├── executionEngine.js
+│   ├── memorySimulator.js
+│   ├── recursionTracer.js
+│   ├── complexityAnalyzer.js
+│
+├── store/
+├── hooks/
+├── data/
+⚙️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React.js
 
-### `npm run eject`
+JavaScript (ES6+)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Custom Execution Engine
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+CSS for styling
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🖥️ How It Works
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+User writes or selects an algorithm.
 
-## Learn More
+Execution Engine parses the code.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The system simulates:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Function calls → Call Stack
 
-### Code Splitting
+Variable allocation → Memory Heap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Recursive calls → Recursion Tree
 
-### Analyzing the Bundle Size
+Visual components update step-by-step.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📦 Installation & Setup
+# Clone the repository
+git clone https://github.com/YOUR-USERNAME/code-execution-visualizer.git
 
-### Making a Progressive Web App
+# Navigate into project
+cd code-execution-visualizer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Install dependencies
+npm install
 
-### Advanced Configuration
+# Run development server
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+App runs at:
 
-### Deployment
+http://localhost:3000
+🎯 Use Cases
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Data Structures & Algorithms learning
 
-### `npm run build` fails to minify
+Understanding recursion visually
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Interview preparation
+
+Teaching programming concepts
+
+🔮 Future Improvements
+
+Support for multiple languages (Python, C++)
+
+Real AST parsing instead of simulated execution
+
+Breakpoint support
+
+Timeline-based execution history
+
+Dark mode toggle
+
+Deployment with backend execution sandbox
+
+📸 Screenshots (Add Later)
+
+You can add screenshots like this:
+
+![Call Stack](./screenshots/callstack.png)
+![Memory Heap](./screenshots/memory.png)
+🤝 Contributing
+
+Pull requests are welcome. For major changes, open an issue first to discuss what you would like to change
