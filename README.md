@@ -104,12 +104,3 @@ Dark mode toggle
 
 Deployment with backend execution sandbox
 
-📸 Screenshots (Add Later)
-
-You can add screenshots like this:
-
-![Call Stack](./screenshots/callstack.png)
-![Memory Heap](./screenshots/memory.png)
-🤝 Contributing
-
-Pull requests are welcome. For major changes, open an issue first to discuss what you would like to change
